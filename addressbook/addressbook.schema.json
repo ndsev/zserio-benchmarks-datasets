@@ -1,0 +1,59 @@
+{
+  "id": 494523,
+  "num_rows": 1,
+  "file_format": "json",
+  "name": "addressbook",
+  "array": false,
+  "columns": [
+    {
+      "name": "people",
+      "null_percentage": 0,
+      "type": "JSON Array",
+      "minItems": 5000,
+      "maxItems": 5000,
+      "formula": null
+    },
+    {
+      "name": "people.id",
+      "null_percentage": 0,
+      "type": "Row Number",
+      "formula": null
+    },
+    {
+      "name": "people.name",
+      "null_percentage": 0,
+      "type": "Full Name",
+      "formula": null
+    },
+    {
+      "name": "people.email",
+      "null_percentage": 33,
+      "type": "Email Address",
+      "formula": null
+    },
+    {
+      "name": "people.phones",
+      "null_percentage": 20,
+      "type": "JSON Array",
+      "minItems": 0,
+      "maxItems": 3,
+      "formula": null
+    },
+    {
+      "name": "people.phones.number",
+      "null_percentage": 0,
+      "type": "Phone",
+      "format": "###-###-####",
+      "formula": null
+    },
+    {
+      "name": "people.phones.type",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 0,
+      "max": 2,
+      "decimals": 0,
+      "formula": null
+    }
+  ]
+}
