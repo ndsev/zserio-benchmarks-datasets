@@ -27,13 +27,13 @@
     },
     {
       "name": "people.email",
-      "null_percentage": 33,
+      "null_percentage": 0,
       "type": "Email Address",
       "formula": null
     },
     {
       "name": "people.phones",
-      "null_percentage": 20,
+      "null_percentage": 0,
       "type": "JSON Array",
       "minItems": 0,
       "maxItems": 3,
