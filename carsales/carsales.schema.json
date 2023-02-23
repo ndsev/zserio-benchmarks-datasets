@@ -1,0 +1,131 @@
+{
+  "id": 496465,
+  "num_rows": 1,
+  "file_format": "json",
+  "name": "carsales",
+  "array": false,
+  "columns": [
+    {
+      "name": "numSoldCars",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 5000,
+      "max": 5000,
+      "decimals": 0,
+      "formula": null
+    },
+    {
+      "name": "carSales",
+      "null_percentage": 0,
+      "type": "JSON Array",
+      "minItems": 5000,
+      "maxItems": 5000,
+      "formula": null
+    },
+    {
+      "name": "carSales.date.day",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 1,
+      "max": 31,
+      "decimals": 0,
+      "formula": null
+    },
+    {
+      "name": "carSales.date.dayOfWeek",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 0,
+      "max": 6,
+      "decimals": 0,
+      "formula": null
+    },
+    {
+      "name": "carSales.date.month",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 0,
+      "max": 11,
+      "decimals": 0,
+      "formula": null
+    },
+    {
+      "name": "carSales.date.year",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 1950,
+      "max": 2030,
+      "decimals": 0,
+      "formula": null
+    },
+    {
+      "name": "carSales.storeName",
+      "null_percentage": 0,
+      "type": "Company Name",
+      "formula": null
+    },
+    {
+      "name": "carSales.store.street",
+      "null_percentage": 0,
+      "type": "Street Name",
+      "formula": null
+    },
+    {
+      "name": "carSales.store.streetNumber",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 1,
+      "max": 32767,
+      "decimals": 0,
+      "formula": null
+    },
+    {
+      "name": "carSales.store.city",
+      "null_percentage": 0,
+      "type": "City",
+      "formula": null
+    },
+    {
+      "name": "carSales.store.zipCode",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 10000,
+      "max": 65536,
+      "decimals": 0,
+      "formula": null
+    },
+    {
+      "name": "carSales.car.carBrand",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 1,
+      "max": 14,
+      "decimals": 0,
+      "formula": null
+    },
+    {
+      "name": "carSales.car.color",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 0,
+      "max": 10,
+      "decimals": 0,
+      "formula": null
+    },
+    {
+      "name": "carSales.car.vin",
+      "null_percentage": 0,
+      "type": "Car VIN",
+      "formula": null
+    },
+    {
+      "name": "carSales.price",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 100000,
+      "max": 2500000,
+      "decimals": 0,
+      "formula": null
+    }
+  ]
+}
