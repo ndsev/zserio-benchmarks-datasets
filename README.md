@@ -1,4 +1,4 @@
-# Zserio Datasets
+# Zserio Benchmarks Datasets
 
 Data sets for zserio benchmarks. This repository contains mocked data in JSON format needed to run
 [Zserio Benchmarks](https://github.com/ndsev/zserio/tree/master/benchmarks) and
